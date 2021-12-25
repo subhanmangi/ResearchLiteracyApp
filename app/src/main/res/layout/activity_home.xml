@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".Home">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="@drawable/logo"
+
+        ></LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:layout_gravity="center"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:orientation="vertical"
+
+        android:weightSum="100"
+        >
+
+
+
+        
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:onClick="infoClicked"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E05260"
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/infoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Info"
+                    android:textColor="#ffff"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/infoText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Learn more about research literacy"
+                    android:textColor="#ffff"></TextView>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/info_ca"
+                    android:layout_alignParentRight="true"
+                    ></ImageView>
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:onClick="takeAssessment"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#53599A"
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/tText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Take Assessment"
+                    android:textColor="#ffff"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Assess yourself by taking tests"
+                    android:textColor="#ffff"></TextView>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/assess_ca"
+                    android:layout_alignParentRight="true"
+                    ></ImageView>
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:onClick="viewProfileClicked"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#294C60"
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/prText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="View Profile"
+                    android:textColor="#ffff"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/prText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="View your profile"
+                    android:textColor="#ffff"></TextView>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/profile_ca"
+                    android:layout_alignParentRight="true"
+                    ></ImageView>
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:onClick="getCertificateClicked"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#230903"
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/gcText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Get Certificate"
+                    android:textColor="#ffff"
+                    android:textSize="25dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gcText"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Get Certificate for your achievement"
+                    android:textColor="#ffff"></TextView>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/cert_ca"
+                    android:layout_alignParentRight="true"
+                    ></ImageView>
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/white"
+        android:gravity="end"
+
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="log out"
+            android:onClick="logout"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

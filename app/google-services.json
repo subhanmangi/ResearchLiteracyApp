@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "805857274316",
+    "firebase_url": "https://researchliteracyassessme-ec34f-default-rtdb.firebaseio.com",
+    "project_id": "researchliteracyassessme-ec34f",
+    "storage_bucket": "researchliteracyassessme-ec34f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805857274316:android:8cf4a1c98f0b89e54dd569",
+        "android_client_info": {
+          "package_name": "com.example.rla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805857274316-m9prqeuqiggrlq9onik1ider9l7jm31k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_UmhTN8Gz6WWFbxVbQHFo2q51lKyzrM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805857274316-m9prqeuqiggrlq9onik1ider9l7jm31k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

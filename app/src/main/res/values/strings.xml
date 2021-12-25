@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">RLA</string>
+    <string name="info_text">
+A.	What is research? \n\n
+        Definition of research
+-	 careful consideration of study regarding a particular concern or problem using scientific methods.
+-	Purposes of researching
+-	The purpose of research is to enhance society by advancing knowledge through the development of scientific theories, concepts and ideas.
+-	Basic vs Applied
+-	Based on purpose or utility, a research approach can either be basic or applied. While basic research aims at expanding knowledge by creating new theories and modifying existing ones, applied research is focused on providing practical solutions to specific problems by analyzing empirical evidence.
+-	Descriptive and Intervention
+-	Intervention: by performing an intervention in some or all study participants – to determine the effect of exposure to the intervention on the natural course of events which are experimental
+-	Descriptive: Descriptive are not experimental studies unlike the intervention.
+-	Normative and Interpretive
+-	Normative: The normative basis of knowledge is totally theoretical and it may or may not have experimental basis.
+-	Interpretive: It is a subjective approach towards an individual’s inner world to explore one’s own realities, to interpret one’s own life’s philosophy and the internal rules.
+-	Primary and secondary
+-	Primary: The purpose of primary research is to gather information and answer questions that have not been asked before.
+-	Secondary: Conducting secondary research is similar to the research that students conduct throughout primary school. Answers to research questions are already available online, in academic databases, the news, published books, journals, etc.
+
+-	Methodological Frameworks
+-	Qualitative (QUAL)
+-	Quantitative (QUAN)
+-	Mixed Methods (MMR)
+
+-	Types of Research
+-	Experimental
+-	Causality
+-	Quasi experimental
+-	Variables
+-	Case study
+-	Longitudinal
+-	Ethnography
+-	Historical
+-	Discourse Analysis
+-	Grounded Theory
+-	Narrative Inquiry
+-	Critical Research
+-	Action/teacher/applied
+-	Corpus
+-	Conversation analysis
+-	Replication
+
+-	Types of Data Collection Techniques
+-	Observation
+-	Experiments
+-	Quasi experimental
+-	Interviews
+-	Structured
+-	Semi structured
+-	Unstructured
+-	Focus Groups
+-	Introspection
+-	Introspection
+-	Verbal report
+-	Think aloud
+-	Surveys/questionnaires
+-	Diaries and Diary Studies
+-	Document Analysis
+
+-	Conducting the Research
+-	Formulating a research Q
+-	Developing a hypothesis
+-	Doing background research
+-	Choosing an appropriate research methodological framework and data collection technique
+-	Sampling
+-	Ethics in research-
+-	Properties of Good Research
+-	Validity
+-	Reliability
+-	Ethical
+-	Human subjects
+-	IRB
+
+-	Analyzing data
+-	Numerical data and statistics (QUAN)
+-	Types of data
+-	Categorical data
+-	Descriptive (dichotomous) data
+-	Descriptive (nominal) data
+-	Ranked (ordinal) data
+-	Numerical data
+-	Interval data
+-	Ratio data
+-	Descriptive, word data (QUAL)
+-	Deductive approach
+-	Inductive approach
+
+-	Disseminating your research results
+-	Presenting your results
+-	Publishing your results
+
+</string>
+</resources>
